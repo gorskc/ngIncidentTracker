@@ -1,0 +1,14 @@
+<h3>Details for {{incident.date_of_incident}} incident</h3>
+
+<p>Description: {{incident.description}}</p></b>
+<p>Date Reported: {{incident.date_reported}}</p></b>
+<p>Location of Incident: {{incident.location_of_incident}}</p></b>
+<p>Type of Incident: {{incident.type_of_incident}}</p></b>
+<p>Property Damage: {{incident.property_damage}}</p></b>
+<p>Description of damage: {{incident.description_of_damage}}</p></b>
+<p>Corrective Action: {{incident.suggested_corrective_action}}</p></b>
+
+<div>
+  <a ui-sref="editIncident({id:incident._id})">Edit</a>
+</div>
+

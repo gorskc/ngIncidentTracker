@@ -1,0 +1,15 @@
+<table>
+    <thead>
+        <tr>
+            <td><h3>All Injuries</h3></td>
+            <td></td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="injury in injuries">
+            <td>{{injury.type_of_injury}}</td>
+            <td>{{injury.affected_body_part}}</td>
+            <td>{{injury.treatment}}</td>
+        </tr>
+    </tbody>
+</table>

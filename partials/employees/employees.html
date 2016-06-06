@@ -1,0 +1,19 @@
+<table>
+    <thead>
+        <tr>
+            <td><h3>All Employees</h3></td>
+            <td></td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="employee in employees">
+            <td>{{employee.first_name}}</td>
+            <td>{{employee.last_name}}</td>
+            <td>{{employee.department}}</td>
+            <td>{{employee.job_title}}</td>
+            <td>{{employee.date_of_hire}}</td>
+            <td>{{employee.supervisor_first_name}}</td>
+            <td>{{employee.supervisor_last_name}}</td>
+        </tr>
+    </tbody>
+</table>

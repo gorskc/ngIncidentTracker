@@ -1,0 +1,31 @@
+<label for="affected_body_part">Affected Body Part</label>
+<input type="text" ng-model="injury.affected_body_part" placeholder="What part of the body was injured?"/>
+
+<label for="injury_type">Injury Type</label>
+<select name="singleSelect" ng-model="injury.injury_type" placeholder="Select an injury">
+      <option value="abrasion">Abrasion</option>
+      <option value="laceration">Laceration</option>
+      <option value="foreign body in eye">Forein body in eye</option>
+      <option value="contusion">Contusion</option>
+      <option value="burn">Burn</option>
+      <option value="fracture">Fracture</option>
+      <option value="amputation">Amputation</option>
+      <option value="metal fume fever">Metal fume fever</option>
+      <option value="hearing loss">Hearing loss</option>
+      <option value="sprain,strain">Sprain/strain</option>
+      <option value="heat stress, heat related illness">Heat stress, heat related illness</option>
+      <option value="frostbite, cold related injury">Frostbite, cold related illness</option>
+      <option value="electric shock, electrocution">Electric shock, electrocution</option>
+      <option value="exposure to biological hazards">Exposure to biological hazards</option>
+      <option value="allergy, sensitivity reaction">Allergy, sensitivity reaction</option>
+</select><br>
+
+<label for="treatment">Treatment</label>
+<select name="singleSelect" ng-model="injury.treatment" placeholder="Select a treatment">
+      <option value="first aid">First Aid</option>
+      <option value="emergency room">Emergency room visit</option>
+      <option value="admission to hospital">Admission to hospital</option>
+      <option value="prescription">Prescription from Dr.</option>
+</select><br>
+
+<input type="submit" value="Save"/>
